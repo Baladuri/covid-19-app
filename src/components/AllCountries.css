@@ -1,0 +1,11 @@
+.countries__container {
+  margin-top: 100px;
+}
+
+.country__data {
+  display: flex;
+}
+
+.country__data > h3 {
+  margin: 10px;
+}

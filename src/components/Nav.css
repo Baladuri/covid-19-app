@@ -1,0 +1,81 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 11vh;
+  background-image: linear-gradient(#3e96cf, #036baf);
+  display: flex;
+}
+
+.title__div {
+  margin: auto;
+  width: 23%;
+}
+
+.logo__div {
+  width: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title__1 {
+  max-width: fit-content;
+  max-height: fit-content;
+  color: white;
+  margin-left: 10px;
+}
+
+.title__1:hover {
+  cursor: pointer;
+}
+
+.title__2 {
+  color: #d5e22a;
+}
+
+.covid__logo {
+  max-width: 80%;
+  max-height: 80%;
+  margin-right: 20px;
+}
+
+.link__home {
+  text-decoration: none;
+}
+
+.header__navs {
+  width: 40%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.header__btn {
+  text-decoration: none;
+  color: wheat;
+  margin: 20px 20px 20px 0px;
+  border: 1px solid #3e96cf;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.header__btn:hover {
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.countries__list {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select__countries {
+  width: 40%;
+  margin: 5px;
+  font-size: 13px;
+}

@@ -1,0 +1,42 @@
+.summary__container {
+  margin-top: 70px;
+  height: 89vh;
+  overflow-y: scroll;
+}
+
+.title {
+  margin-top: 20px;
+  color: rgb(51, 51, 51);
+  text-align: center;
+}
+.date {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.date > h4 {
+  margin: 10px;
+  font-weight: 500;
+  color: darkslategray;
+}
+
+.summary {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.keys {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.keys > h3 {
+  padding: 10px;
+}
